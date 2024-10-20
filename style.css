@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(46, 34, 34);
+}
+
+a{
+    text-decoration: none;
+    margin: 0.3rem;
+    color: rgb(46, 34, 34);
+    font-size: 0.8rem;
+}
+
+header nav:hover{
+    background-color:rgb(90, 253, 75);
+}
+span{
+    color: rgb(26, 4, 4);
+}
+
+.hero{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero img{
+    width: 80%;
+    padding-top: 1rem;
+}
+
+.hero h1{
+    font-size: 2rem;
+    color: rgb(170, 22, 12);
+}
+
+.hero button{
+    background-color: rgb(46, 34, 34);
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.fresh{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 185, 159);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.fresh img{
+    width: 80%
+}
+
+.fresh p{
+    font-size: 0.8rem;
+}
+
+.fresh h2{
+    font-size: 1rem;
+    color: rgb(46, 34, 34);
+}
+
+.fresh button{
+    background-color: rgb(46, 34, 34);
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.drink{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(90, 253, 75);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.drink img{
+    width: 100%;
+}
+
+.drink h2{
+    font-size: 1rem;
+    color: rgb(46, 34, 34); 
+}
+
+.drink p{
+    font-size: 0.8rem;
+}
+
+.drink button{
+    background-color: rgb(46, 34, 34);
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.raw{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    
+}
+
+.raw button{
+    background-color: rgb(255, 185, 159);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.taste{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    background-color: rgb(255, 106, 255);
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.taste img{
+    width: 80% 
+}
+
+.taste p{
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+
+.taste h2{
+    font-size: 1rem;
+    color: rgb(46, 34, 34); 
+}
+
+.taste button{
+    background-color: rgb(46, 34, 34);
+    color: white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.orange{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    background-color: rgb(106, 200, 255);
+    
+    padding-left: 2rem;
+}
+
+.orange img{
+    width: 70%;
+}
+
+.orange p{
+    font-size: 0.8rem;
+}
+
+.orange button{
+    background-color: rgb(46, 34, 34);
+    color: white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.orange h2{
+    font-size: 1rem;
+    color: rgb(46, 34, 34); 
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.footer button{
+    margin-top: 0.5rem;
+    background-color: red;
+    border-style: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+.footer p{
+    font-style: italic;
+}
+
+
+@media (max-width:1300px){
+    header nav{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: space-around;
+        font-size: 2rem;
+        color: rgb(46, 34, 34);
+    }
+    
+    a{
+        text-decoration: none;
+        margin: 0.3rem;
+        color: rgb(46, 34, 34);
+        font-size: 1.5rem;
+    }
+
+    
+    .hero img{
+        width: 70%;
+        padding-top: 2rem;
+        padding-right: 7rem;
+    }
+    
+    .hero h1{
+        font-size: 2rem;
+        color: rgb(170, 22, 12);
+    }
+    
+    .hero button{
+        background-color: rgb(46, 34, 34);
+        color: white;
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .fresh p{
+        font-size: 1.5rem;
+    }
+    
+    .fresh h2{
+        font-size: 2rem;
+        color: rgb(46, 34, 34);
+    }
+
+    .drink h2{
+        font-size: 2rem;
+        color: rgb(46, 34, 34); 
+    }
+    
+    .drink p{
+        font-size: 1.5rem;
+    }
+
+    .raw{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        
+    }
+    
+    .raw button{
+        background-color: rgb(255, 185, 159);
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+
+    .taste p{
+        font-size: 1.5rem;
+        padding-left: 1rem;
+    }
+    
+    .taste h2{
+        font-size: 2rem;
+        color: rgb(46, 34, 34); 
+    }
+
+    .orange p{
+        font-size: 1.5rem;
+    }
+    
+    .orange h2{
+        font-size: 2rem;
+ 
+   }
+
+   .footer p{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+}
+
+@media (max-width:600px){
+    header nav{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: space-around;
+        font-size: 1rem;
+        color: rgb(46, 34, 34);
+    }
+    
+    a{
+        text-decoration: none;
+        margin: 0.3rem;
+        color: rgb(46, 34, 34);
+        font-size: 1rem;
+    }
+
+    
+    .hero img{
+        width: 70%;
+        padding-top: 2rem;
+        padding-right: 7rem;
+    }
+    
+    .hero h1{
+        font-size: 2rem;
+        color: rgb(170, 22, 12);
+    }
+    
+    .hero button{
+        background-color: rgb(46, 34, 34);
+        color: white;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .fresh p{
+        font-size: 1rem;
+    }
+    
+    .fresh h2{
+        font-size: 1.8rem;
+        color: rgb(46, 34, 34);
+    }
+
+    .drink h2{
+        font-size: 1.7rem;
+        color: rgb(46, 34, 34); 
+    }
+    
+    .drink p{
+        font-size: 1rem;
+    }
+
+    .raw{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+    }
+    
+    .raw button{
+        background-color: rgb(255, 185, 159);
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1rem;
+    }
+
+    .taste p{
+        font-size: 1rem;
+        padding-right: 2rem;
+    }
+    
+    .taste h2{
+        font-size: 1.8rem;
+        color: rgb(46, 34, 34); 
+    }
+
+    .orange p{
+        font-size: 1rem;
+    }
+    
+    .orange h2{
+        font-size: 1.8rem;
+ 
+   }
+
+   .footer p{
+    font-style: italic;
+    font-size: 1.2rem;
+}
+}
+
+@media (max-width:499px){
+    .footer p{
+        font-style: italic;
+        font-size: 1rem;
+    }
+
+    .orange p{
+        font-size: 0.8rem;
+    }
+    
+    .orange h2{
+        font-size: 1.4rem;
+ 
+   }
+
+   .taste p{
+    font-size: 0.8rem;
+    padding-right: 2rem;
+}
+
+.taste h2{
+    font-size: 1.4rem;
+}
+
+.fresh p{
+    font-size: 0.8rem;
+}
+
+.fresh h2{
+    font-size: 1.4rem;
+    color: rgb(46, 34, 34);
+}
+
+.drink h2{
+    font-size: 1.4rem;
+    color: rgb(46, 34, 34); 
+}
+
+.drink p{
+    font-size: 0.8rem;
+}
+.hero h1{
+    font-size: 1.5rem;
+    color: rgb(170, 22, 12);
+}
+
+.hero button{
+    background-color: rgb(46, 34, 34);
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+}
+
+
+@media (max-width:423px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2rem;
+        padding-left: 2rem;
+    }
+    .footer p{
+        font-style: italic;
+        font-size: 0.7rem;
+    }
+
+    .footer h4{
+        font-size: 0.9rem;
+    }
+    .footer form{
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width:385px){
+    a{
+        text-decoration: none;
+        margin: 0.3rem;
+        color: rgb(46, 34, 34);
+        font-size: 0.7rem;
+    }
+
+    .hero img{
+        width: 100%;
+        padding-top: 1rem;
+        padding-left: 5rem;
+    }
+    .orange p{
+        font-size: 0.5rem;
+    }
+    
+    .orange h2{
+        font-size: 1.1rem;
+ 
+   }
+
+   .taste p{
+    font-size: 0.5rem;
+    padding-right: 2rem;
+}
+
+.taste h2{
+    font-size: 1.1rem;
+}
+
+.fresh p{
+    font-size: 0.5rem;
+}
+
+.fresh h2{
+    font-size: 1.1rem;
+    color: rgb(46, 34, 34);
+}
+
+.drink h2{
+    font-size: 1.1rem;
+    color: rgb(46, 34, 34); 
+}
+
+.drink p{
+    font-size: 0.5rem;
+}
+.raw button{
+    background-color: rgb(255, 185, 159);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.7rem;
+}
+
+}
